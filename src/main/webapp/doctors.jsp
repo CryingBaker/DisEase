@@ -38,14 +38,9 @@
             padding: 20px;
             z-index: 999;
         }
-        <style>
-    .blur-background {
-        filter: blur(5px);
-    }
-
-    /* Your other styles here */
-</style>
-        
+        .blur-background {
+            filter: blur(5px);
+        }
     </style>
 </head>
 <body>
@@ -65,7 +60,7 @@
             </div>
             <div class="navsearch1">
           <input placeholder="Search for Viruses" name="dis" id="dis" onchange="updateLink()">
-          <a href="/virus1/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
+          <a href="/virus/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
         </div>
             <!-- Modified code starts here -->
             <div class="navlogin1">

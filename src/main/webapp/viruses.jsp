@@ -34,7 +34,7 @@
                         </div>
                         <div class="navsearch">
           <input placeholder="Search for Viruses" name="dis" id="dis" onchange="updateLink()">
-          <a href="/virus1/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
+          <a href="/virus/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
         </div>
                         <!-- Modified code starts here -->
                         <div class="navlogin">
@@ -69,7 +69,7 @@
 
                                         for (String virus : virusList) {
                                         %>
-                                        <li><a href="/virus1/getVirusinfo?diseasename=<%=virus%>">
+                                        <li><a href="/virus/getVirusinfo?diseasename=<%=virus%>">
                                                 <%= virus %>
                                             </a></li>
                                         <% } %>

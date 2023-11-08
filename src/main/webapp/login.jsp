@@ -33,7 +33,7 @@
                 </div>
                 <div class="navsearch">
                     <input placeholder="Search for Viruses" name="dis" id="dis" onchange="updateLink()">
-                    <a href="/virus1/getVirusinfo?diseasename=" id="link"><i
+                    <a href="/virus/getVirusinfo?diseasename=" id="link"><i
                             class="fa-solid fa-magnifying-glass border"></i></a>
                 </div>
                 <div class="navlogin">

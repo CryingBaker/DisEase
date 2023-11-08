@@ -32,7 +32,7 @@
         </div>
         <div class="navsearch1">
           <input placeholder="Search for Viruses" name="dis" id="dis" onchange="updateLink()">
-          <a href="/virus1/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
+          <a href="/virus/getVirusinfo?diseasename=" id="link"><i class="fa-solid fa-magnifying-glass border"></i></a>
         </div>
         <!-- Modified code starts here -->
         <div class="navlogin1">
@@ -69,7 +69,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="/virus1/getVirusinfo?diseasename=Covid-19"><img src="images/covid19.jpg"
+            <a href="/virus/getVirusinfo?diseasename=Covid-19"><img src="images/covid19.jpg"
                 class="d-block w-100 resize1" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Covid-19</h5>
@@ -81,7 +81,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <a href="/virus1/getVirusinfo?diseasename=Dengue"><img src="images/hero.png" class="d-block w-100 resize1"
+            <a href="/virus/getVirusinfo?diseasename=Dengue"><img src="images/hero.png" class="d-block w-100 resize1"
                 alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Dengue</h5>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <a href="/virus1/getVirusinfo?diseasename=Hepatitis%20B"><img src="images/hepatitisb.jpg"
+            <a href="/virus/getVirusinfo?diseasename=Hepatitis%20B"><img src="images/hepatitisb.jpg"
                 class="d-block w-100 resize1" alt="..."></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Hepatitis B</h5>

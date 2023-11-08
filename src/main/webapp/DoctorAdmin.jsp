@@ -103,7 +103,7 @@
                         <td><%= tim %></td>
                         <td><%= f %> <%= l %></td>
                         <td><%= re %></td>
-                        <td><a href="/virus1/cancelAppointment?time=<%= tim %>&date=<%=dat%>">Cancel</a></td>
+                        <td><a href="/virus/cancelAppointment?time=<%= tim %>&date=<%=dat%>">Cancel</a></td>
                     </tr>
                     <%}} else{ %>
                     No Appointments
