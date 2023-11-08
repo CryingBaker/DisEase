@@ -1,0 +1,146 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>virus</display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.virus.RegistrationServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.virus.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.virus.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>appointment</servlet-name>
+    <servlet-class>com.virus.appointment</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>appointment</servlet-name>
+    <url-pattern>/appointment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getDoctors</servlet-name>
+    <servlet-class>com.virus.getDoctors</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getDoctors</servlet-name>
+    <url-pattern>/getDoctors</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getDoctor</servlet-name>
+    <servlet-class>com.virus.getDoctor</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getDoctor</servlet-name>
+    <url-pattern>/getDoctor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getVirusinfo</servlet-name>
+    <servlet-class>com.virus.getVirusinfo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getVirusinfo</servlet-name>
+    <url-pattern>/getVirusinfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getVirusList</servlet-name>
+    <servlet-class>com.virus.getVirusList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getVirusList</servlet-name>
+    <url-pattern>/getVirusList</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AppointmentServlet</servlet-name>
+    <servlet-class>com.virus.AppointmentServlet.AppointmentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AppointmentServlet</servlet-name>
+    <url-pattern>/AppointmentServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AppointmentSer</servlet-name>
+    <servlet-class>com.virus.AppointmentSer</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AppointmentSer</servlet-name>
+    <url-pattern>/AppointmentSer</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getDoctorInfo</servlet-name>
+    <servlet-class>com.virus.getDoctorInfo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getDoctorInfo</servlet-name>
+    <url-pattern>/getDoctorInfo</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>getAppointment</servlet-name>
+    <servlet-class>com.virus.getAppointment</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getAppointment</servlet-name>
+    <url-pattern>/getAppointment</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>cancelAppointment</servlet-name>
+    <servlet-class>com.virus.cancelAppointment</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cancelAppointment</servlet-name>
+    <url-pattern>/cancelAppointment</url-pattern>
+  </servlet-mapping>
+</web-app>

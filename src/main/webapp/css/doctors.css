@@ -1,0 +1,38 @@
+		body{
+			background-color: white;
+		}
+        .doctor-box {
+            border: 1px solid whitesmoke ;
+            padding: 20px;
+            margin: 10px auto;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            width: 90%; /* Adjusted width to 90% */
+            text-align: left;
+            display:flex;
+        }
+
+        .doctor-name {
+            font-weight: bold;
+        }
+
+
+        .doctor-specialty {
+            color: #007bff;
+        }
+        
+        .appointment-calendar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .calendar-input {
+            width: 45%;
+        }
+        .centerr{
+        	text-align: center;
+        }
+        .doctor-photo{
+			margin-right:10px;
+		}
+        
