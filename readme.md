@@ -8,7 +8,6 @@
     <li><strong>Viral Disease Information:</strong> Provides comprehensive information about various viral diseases, including symptoms, prevention, and treatment.</li>
     <li><strong>Appointment System:</strong> Allows users to schedule appointments with healthcare professionals for disease consultations.</li>
     <li><strong>Database Backend:</strong> Utilizes MySQL as the database to store user data and disease information.</li>
-    <li><strong>Responsive Design:</strong> Ensures a user-friendly experience on both desktop and mobile devices.</li>
   </ul>
 
   <h2>Prerequisites</h2>
@@ -24,9 +23,7 @@
 
   <h3>Database Setup</h3>
   <ol>
-    <li>Create a MySQL database and import the schema using the provided <code>database.sql</code> file. You can use the following command to import the database schema:</li>
-  </ol>
-  <pre><code>mysql -u your_username -p your_database_name &lt; database.sql</code></pre>
+    <li>Create a MySQL database and import the schema using the provided <code>database.sql</code> file.
 
   <h3>Deploying on Apache Tomcat</h3>
   <ol>
