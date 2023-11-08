@@ -24,7 +24,7 @@
   <h3>Database Setup</h3>
   <ol>
     <li>Create a MySQL database and import the schema using the provided <code>database.sql</code> file.
-
+  </ol>
   <h3>Deploying on Apache Tomcat</h3>
   <ol>
     <li>Build the project or package it into a WAR (Web Application Archive) file.</li>
