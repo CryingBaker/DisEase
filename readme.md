@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #f7f7f7;
-    }
-    h1 {
-      color: #333;
-    }
-    h2 {
-      color: #333;
-    }
-    p {
-      color: #666;
-      line-height: 1.6;
-    }
-    code {
-      background-color: #f0f0f0;
-      padding: 2px 4px;
-      border: 1px solid #ddd;
-      font-size: 90%;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-  </style>
-</head>
 <body>
   <h1>DisEase - Viral Disease Knowledge Portal and Appointment System</h1>
 
