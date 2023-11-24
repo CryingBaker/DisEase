@@ -1,6 +1,5 @@
 package com.virus;
 
-import com.virus.DatabaseConnectionUtil;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
